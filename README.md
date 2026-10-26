@@ -20,7 +20,7 @@
 | Average nonnegative payment per claim-segment row | **$9,323.60** |
 | Average recorded utilization days (eligible rows) | **5.63** |
 
-**[Read the complete, real-data analysis report](reports/real_cms_sample1_2008_report.md)** — includes source reconciliation, QC flags, age groups, monthly summaries, synthetic ICD-9 frequencies, limitations, and methodology.
+**[Read the complete, CMS synthetic-data analysis report](reports/real_cms_sample1_2008_report.md)** — includes source reconciliation, QC flags, age groups, monthly summaries, synthetic ICD-9 frequencies, limitations, and methodology.
 
 **[View SAS validation results](docs/SAS_VALIDATION_RESULTS.md)** — independently reproduced the key Python/SQLite findings in SAS Studio Online on October 26, 2026.
 
