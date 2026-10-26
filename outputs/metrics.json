@@ -1,0 +1,201 @@
+{
+  "source": "CMS DE-SynPUF Sample 1, beneficiary 2008 and inpatient 2008\u20132010 (synthetic)",
+  "analysis_filter": "inpatient CLM_ADMSN_DT admission year 2008",
+  "record_counts": [
+    {
+      "dataset": "beneficiaries_2008",
+      "rows": 116352
+    },
+    {
+      "dataset": "inpatient_claims",
+      "rows": 66773
+    },
+    {
+      "dataset": "claims_2008",
+      "rows": 27701
+    }
+  ],
+  "admission_years": [
+    {
+      "admission_year": "2007",
+      "claim_segment_rows": 226
+    },
+    {
+      "admission_year": "2008",
+      "claim_segment_rows": 27701
+    },
+    {
+      "admission_year": "2009",
+      "claim_segment_rows": 25264
+    },
+    {
+      "admission_year": "2010",
+      "claim_segment_rows": 13582
+    }
+  ],
+  "quality_flags": {
+    "rows_2008": 27701,
+    "missing_keys": 0,
+    "invalid_dates": 0,
+    "missing_payments": 0,
+    "negative_payments": 22,
+    "missing_utilization_days": 23,
+    "negative_utilization_days": 0,
+    "unmatched_beneficiaries": 0,
+    "invalid_ages": 0
+  },
+  "composite_key_duplicate_groups": 0,
+  "overall": {
+    "claim_segment_rows": 27701,
+    "distinct_claim_ids": 27682,
+    "distinct_beneficiaries": 15864,
+    "avg_nonnegative_payment": 9323.6,
+    "avg_recorded_utilization_days": 5.63
+  },
+  "age_group": [
+    {
+      "age_group": "Under 65",
+      "claim_segment_rows": 5212,
+      "beneficiaries": 2904,
+      "avg_recorded_utilization_days": 5.84,
+      "avg_nonnegative_payment": 9028.82
+    },
+    {
+      "age_group": "65-74",
+      "claim_segment_rows": 8625,
+      "beneficiaries": 5172,
+      "avg_recorded_utilization_days": 5.6,
+      "avg_nonnegative_payment": 9553.96
+    },
+    {
+      "age_group": "75-84",
+      "claim_segment_rows": 8681,
+      "beneficiaries": 5045,
+      "avg_recorded_utilization_days": 5.62,
+      "avg_nonnegative_payment": 9564.22
+    },
+    {
+      "age_group": "85+",
+      "claim_segment_rows": 5183,
+      "beneficiaries": 2899,
+      "avg_recorded_utilization_days": 5.49,
+      "avg_nonnegative_payment": 8833.53
+    }
+  ],
+  "admission_month": [
+    {
+      "admission_month": "2008-01",
+      "claim_segment_rows": 1535,
+      "beneficiaries": 1373,
+      "avg_nonnegative_payment": 9459.28
+    },
+    {
+      "admission_month": "2008-02",
+      "claim_segment_rows": 1805,
+      "beneficiaries": 1594,
+      "avg_nonnegative_payment": 9015.02
+    },
+    {
+      "admission_month": "2008-03",
+      "claim_segment_rows": 2301,
+      "beneficiaries": 2077,
+      "avg_nonnegative_payment": 9099.4
+    },
+    {
+      "admission_month": "2008-04",
+      "claim_segment_rows": 2321,
+      "beneficiaries": 2082,
+      "avg_nonnegative_payment": 9367.16
+    },
+    {
+      "admission_month": "2008-05",
+      "claim_segment_rows": 2588,
+      "beneficiaries": 2270,
+      "avg_nonnegative_payment": 9397.16
+    },
+    {
+      "admission_month": "2008-06",
+      "claim_segment_rows": 2457,
+      "beneficiaries": 2196,
+      "avg_nonnegative_payment": 9403.14
+    },
+    {
+      "admission_month": "2008-07",
+      "claim_segment_rows": 2472,
+      "beneficiaries": 2236,
+      "avg_nonnegative_payment": 9323.04
+    },
+    {
+      "admission_month": "2008-08",
+      "claim_segment_rows": 2587,
+      "beneficiaries": 2331,
+      "avg_nonnegative_payment": 9242.23
+    },
+    {
+      "admission_month": "2008-09",
+      "claim_segment_rows": 2455,
+      "beneficiaries": 2258,
+      "avg_nonnegative_payment": 9077.49
+    },
+    {
+      "admission_month": "2008-10",
+      "claim_segment_rows": 2508,
+      "beneficiaries": 2291,
+      "avg_nonnegative_payment": 9397.37
+    },
+    {
+      "admission_month": "2008-11",
+      "claim_segment_rows": 2341,
+      "beneficiaries": 2161,
+      "avg_nonnegative_payment": 9377.55
+    },
+    {
+      "admission_month": "2008-12",
+      "claim_segment_rows": 2331,
+      "beneficiaries": 2169,
+      "avg_nonnegative_payment": 9702.29
+    }
+  ],
+  "top_icd9": [
+    {
+      "principal_icd9_code": "486",
+      "claim_segment_rows": 1047
+    },
+    {
+      "principal_icd9_code": "41401",
+      "claim_segment_rows": 737
+    },
+    {
+      "principal_icd9_code": "V5789",
+      "claim_segment_rows": 669
+    },
+    {
+      "principal_icd9_code": "4280",
+      "claim_segment_rows": 658
+    },
+    {
+      "principal_icd9_code": "49121",
+      "claim_segment_rows": 656
+    },
+    {
+      "principal_icd9_code": "0389",
+      "claim_segment_rows": 650
+    },
+    {
+      "principal_icd9_code": "5990",
+      "claim_segment_rows": 563
+    },
+    {
+      "principal_icd9_code": "41071",
+      "claim_segment_rows": 492
+    },
+    {
+      "principal_icd9_code": "42731",
+      "claim_segment_rows": 486
+    },
+    {
+      "principal_icd9_code": "5849",
+      "claim_segment_rows": 466
+    }
+  ]
+}

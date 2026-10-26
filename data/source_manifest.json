@@ -1,0 +1,21 @@
+{
+  "data_type": "synthetic CMS DE-SynPUF sample 1 public use files",
+  "files": [
+    {
+      "filename": "DE1_0_2008_Beneficiary_Summary_File_Sample_1.csv",
+      "bytes": 14588413,
+      "sha256": "3a8ca1a6540f5ffa1666e6f051ec0756e2212cda9ff9b4c18f0c1a1594f70fbe",
+      "columns": 32,
+      "rows": 116352,
+      "source": "CMS DE-SynPUF Sample 1"
+    },
+    {
+      "filename": "DE1_0_2008_to_2010_Inpatient_Claims_Sample_1.csv",
+      "bytes": 16689488,
+      "sha256": "8e3e8469f7e68d9cb8db0642aa4a7f2fa78004973c28973458a07f122a568681",
+      "columns": 81,
+      "rows": 66773,
+      "source": "CMS DE-SynPUF Sample 1"
+    }
+  ]
+}

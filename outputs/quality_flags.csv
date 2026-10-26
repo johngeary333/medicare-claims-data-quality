@@ -1,0 +1,9 @@
+check,count,percent_of_2008_rows
+missing_keys,0,0.0
+invalid_dates,0,0.0
+missing_payments,0,0.0
+negative_payments,22,0.079
+missing_utilization_days,23,0.083
+negative_utilization_days,0,0.0
+unmatched_beneficiaries,0,0.0
+invalid_ages,0,0.0

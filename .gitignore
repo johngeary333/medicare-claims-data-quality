@@ -1,0 +1,12 @@
+# Keep large/raw extracts and row-level databases local.
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+*.sas7bdat
+*.log
+*.lst
+__pycache__/
+*.py[cod]
+.DS_Store
+.ipynb_checkpoints/
